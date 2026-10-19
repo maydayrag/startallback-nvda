@@ -24,16 +24,3 @@ Open StartAllBack and use it as usual. NVDA will automatically announce the curr
 These commands do not require the NVDA key. After you change a setting, NVDA automatically announces its new state.
 
 See the [English user guide](addon/doc/en/readme.html). The user release does not include diagnostic shortcuts or data export features.
-
-## Building and verification
-
-Run with Python 3:
-
-```sh
-python -m unittest discover -p "test_*.py"
-python build.py
-```
-
-The build produces `StartAllBack-1.0.3.nvda-addon` and verifies the ZIP format, package structure, and file contents. Tests use simulated NVDA interfaces and a de-identified control tree; StartAllBack does not need to be running.
-
-The internal add-on identifier remains `startAllBackDiagnostics` to support upgrades from earlier versions. The user release contains no diagnostic functionality.

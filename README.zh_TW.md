@@ -26,16 +26,3 @@ StartAllBack Accessibility Enhancements
 上述按鍵不需要搭配 NVDA 鍵。修改設定後，NVDA 會自動朗讀新的狀態。
 
 詳細說明見 [繁體中文操作說明](addon/doc/zh_TW/readme.html)。使用者版不含診斷快捷鍵及資料匯出功能。
-
-## 建置及驗證
-
-使用 Python 3 執行：
-
-```sh
-python -m unittest discover -p "test_*.py"
-python build.py
-```
-
-建置後產生 `StartAllBack-1.0.3.nvda-addon`，並檢查 ZIP 格式、目錄結構及內容一致性。測試使用模擬 NVDA 介面與去識別化的控制項結構，不需要開啟 StartAllBack。
-
-內部附加元件識別名稱保留為 `startAllBackDiagnostics`，以便升級早期版本；使用者版不提供診斷功能。
