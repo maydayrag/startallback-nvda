@@ -8,9 +8,11 @@ Helps NVDA announce checkbox states, display options, Start button images, and l
 
 ## Installation
 
-Download `StartAllBack-1.0.3.nvda-addon` from [Releases](https://github.com/maydayrag/startallback-nvda/releases), install it with NVDA, and restart NVDA.
+Download `StartAllBack-1.0.4.nvda-addon` from [Releases](https://github.com/maydayrag/startallback-nvda/releases), install it with NVDA, and restart NVDA.
 
 ## Usage
+
+If an earlier version is installed under the identifier `startAllBackDiagnostics`, remove it in NVDA's Add-on Store before installing this version. The new identifier is `startallback`.
 
 Open StartAllBack and use it as usual. NVDA will automatically announce the currently selected item and its state.
 

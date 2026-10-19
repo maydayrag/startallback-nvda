@@ -10,9 +10,11 @@ StartAllBack Accessibility Enhancements
 
 ## 安裝
 
-從 [Releases](https://github.com/maydayrag/startallback-nvda/releases) 下載 `StartAllBack-1.0.3.nvda-addon`，以 NVDA 安裝並重新啟動 NVDA。
+從 [Releases](https://github.com/maydayrag/startallback-nvda/releases) 下載 `StartAllBack-1.0.4.nvda-addon`，以 NVDA 安裝並重新啟動 NVDA。
 
 ## 操作方式
+
+若已安裝識別名稱為 `startAllBackDiagnostics` 的舊版，請先在 NVDA 附加元件商店移除，再安裝此版本。新版識別名稱為 `startallback`。
 
 進入 StartAllBack 後，依一般方式操作即可，NVDA 會自動朗讀目前選取的項目與狀態。
 
